@@ -1,4 +1,4 @@
-package org.androidtown.hello;
+package org.androidtown.simpleintent;
 
 import org.junit.Test;
 
