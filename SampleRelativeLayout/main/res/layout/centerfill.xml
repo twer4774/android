@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/topButton"
+        android:text="상단버튼"
+        android:textColor="#ff000000"
+        android:textSize="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/topButton"
+        android:layout_above="@+id/bottomButton"
+        android:text="전체영역"
+        android:textColor="#ff000000"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:background="#ff00ffff"
+        />
+    <Button
+        android:id="@+id/bottomButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="하단버튼"
+        android:textColor="#ff000000"
+        android:textSize="24dp"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>
