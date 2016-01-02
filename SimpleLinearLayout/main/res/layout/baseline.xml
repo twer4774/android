@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="true" > <!-- 레이아웃에 추가되는 뷰들이 가지는 글자의 아랫줄 마추기 -->
+
+    <TextView
+        android:id="@+id/button01"
+        android:gravity="right|bottom"
+        android:text="큰 글씨"
+        android:textColor="#ffff0000"
+        android:textSize="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+<TextView
+    android:id="@+id/button02"
+    android:text="중간 글씨"
+    android:textColor="#ff00ff00"
+    android:textSize="22dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/button03"
+        android:text="작은 글씨"
+        android:textColor="#ff0000ff"
+        android:textSize="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

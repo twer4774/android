@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 공간가중치(weight)가 1과 2면 총3의 가중치중 1에는 1/3, 2에는 2/3이 할당된다. 즉, 영역분할 할 때 사용됨-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#ffffffff">
+    <TextView
+        android:id="@+id/button01"
+        android:background="#ffffff00"
+        android:text="텍스트"
+        android:textColor="#ffff0000"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/button02"
+        android:background="#ff00ffff"
+        android:text="텍스트"
+        android:textColor="#ffff0000"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/button03"
+        android:background="#ffff00ff"
+        android:text="텍스트"
+        android:textSize="16dp"
+        android:textColor="#ffff0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+</LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffffff">
+
+        <Button
+            android:id="@+id/button04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff00ffff"
+            android:text="텍스트"
+            android:textColor="#ffff0000"
+            android:textSize="24dp"
+            android:layout_weight="2"
+            />
+        <Button
+            android:id="@+id/button05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff0000ff"
+            android:text="텍스트"
+            android:textColor="#ffff0000"
+            android:textSize="24dp"
+            android:layout_weight="3"
+            />
+    </LinearLayout>
+</LinearLayout>

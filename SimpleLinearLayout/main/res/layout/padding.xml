@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/button01"
+        android:background="#ffffff00"
+        android:text="텍스트"
+        android:textColor="#ffff0000"
+        android:textSize="24dp"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/button02"
+        android:background="#ff00ffff"
+        android:text="텍스트"
+        android:textColor="#ffff0000"
+        android:textSize="24dp"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/button03"
+        android:background="#ffff00ff"
+        android:text="텍스트"
+        android:textSize="24dp"
+        android:textColor="#ffff0000"
+        android:padding="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
