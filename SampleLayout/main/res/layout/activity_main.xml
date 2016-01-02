@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/button01"
+        android:text="리니어레이아웃 사용하기"
+        android:onClick="onButton1Clicked"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+    android:id="@+id/button02"
+    android:text="테이블레이아웃 사용하기"
+    android:onClick="onButton2Clicked"
+    android:layout_width="220dp"
+    android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button03"
+        android:text="테이블레이아웃 사용하기2"
+        android:onClick="onButton3Clicked"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
